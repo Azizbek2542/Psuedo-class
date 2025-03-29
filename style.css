@@ -1,0 +1,381 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 46px 130px 91px 131px;
+    width: 1179px;
+    height: 41px;   
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.header-title a {
+    color: #7D7987;
+    text-decoration: none;
+    padding: 11px;
+}
+
+.header-title a:hover {
+    color: #1F1534;
+}
+
+section h1 {
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 0%;  
+    color: #000000;     
+}
+
+section p {
+    color: #7D7987;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0%;    
+}
+
+.CONTAINER {
+    width: 1180px;
+    height: 467px;    
+    margin: 91px 130px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.btn{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #FFFFFF;
+    width: 198px;
+    height: 49px;
+    border-radius: 55px;    
+    border: 1.4px solid #458FF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #458FF6;
+}
+
+.btn:hover {
+    background-color: #5A98F2;
+    color: #FFFFFF;
+}
+
+.parent-container {
+    width: 440px;
+    height: 293px;  
+}
+
+.Mouse {
+    width: 57px;
+    height: 57px;
+    margin-right: -60px;
+    margin-top: 40px;
+}
+
+.title {
+    color: #000000;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0%; 
+    text-align: center; 
+}
+
+.title2 {
+    color: #7D7987;
+    margin: 62px 232px 36px 256px;
+    text-align: center;    
+}
+
+.box {
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+}
+
+.parent-container2 p {
+    color: #7D7987;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%; 
+    padding: 0px 58px 29px 41px;   
+}
+
+h3 {
+    color: #000000;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: 0%; 
+    padding-left: 41px;   
+}
+
+.parent-container2 {
+    display: flex;
+    justify-content: center;
+    margin: 23px 40px 20px 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.img4 {
+    padding: 68px 244px 20px 39px;
+}
+
+.box:hover {
+    background-color: #5A98F2;
+    color: #FFFFFF;
+}
+
+.img5 {
+    padding: 71px 271px 20px 42px;
+}
+
+.img6 {
+    padding: 76px 258px 3px 51px;
+}
+
+.img7 {
+    padding: 67px 257px 3px 42px;
+}
+
+.img8 {
+    padding: 62px 249px 33px 47px;
+}
+
+.img9 {
+    padding: 56px 263px 12px 41px;
+}
+
+.btn2 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    color: #458FF6;
+    width: 200px;
+    height: 57px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px auto;
+}
+
+.btn2:hover {
+    background-color: #5A98F2;
+    color: #FFFFFF;
+}
+
+.title3 {
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;  
+    margin: 75px auto;  
+}
+
+
+
+
+.loader, .loader span {
+    width: 10em;
+    height: 10em;
+    border: 0.25em solid white;
+    font-size: 2px;
+    border-radius: 1em;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.loader {
+    background-color: gold;
+    animation: rotating 2s linear infinite;
+    margin-left: 1015px;
+    margin-top: 10px;
+}
+
+@keyframes rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.loader span {
+    animation: de-rotating 4s linear infinite;
+}
+
+@keyframes de-rotating {
+    from, to {
+        transform: rotate(0deg);
+          scale: 0.5;
+    }
+
+    50% {
+        transform: rotate(-180deg);
+          scale: 1.2;
+    } 
+}
+
+.loader span:nth-child(1) {
+    top: 5em;
+    left: 5em;
+    background-color: dodgerblue;
+}
+
+.loader span:nth-child(2) {
+    top: -5em;
+    left: 5em;
+    background-color: hotpink;
+}
+
+.loader span:nth-child(3) {
+    top: 5em;
+    left: -5em;
+    background-color: mediumpurple;
+}
+
+.loader span:nth-child(4) {
+    top: -5em;
+    left: -5em;
+    background-color: limegreen;
+}
+
+
+
+.loader2, .loader2 span {
+    width: 10em;
+    height: 10em;
+    border: 0.25em solid white;
+    font-size: 2px;
+    border-radius: 1em;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.loader2 {
+    background-color: gold;
+    animation: rotating 2s linear infinite;
+    margin-left: 460px;
+    margin-top: 10px;
+}
+
+@keyframes rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.loader2 span {
+    animation: de-rotating 4s linear infinite;
+}
+
+@keyframes de-rotating {
+    from, to {
+        transform: rotate(0deg);
+          scale: 0.5;
+    }
+
+    50% {
+        transform: rotate(-180deg);
+          scale: 1.2;
+    } 
+}
+
+.loader2 span:nth-child(1) {
+    top: 5em;
+    left: 5em;
+    background-color: dodgerblue;
+}
+
+.loader2 span:nth-child(2) {
+    top: -5em;
+    left: 5em;
+    background-color: hotpink;
+}
+
+.loader2 span:nth-child(3) {
+    top: 5em;
+    left: -5em;
+    background-color: mediumpurple;
+}
+
+.loader2 span:nth-child(4) {
+    top: -5em;
+    left: -5em;
+    background-color: limegreen;
+}
+
+
+
+.Azix {
+    font-size: clamp(2rem, 1vw + 1rem, 2rem);
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+    @supports (background-clip: text) or
+     (-webkit-background-clip: text) {
+
+.Azix {   background-image: 
+    linear-gradient(
+        to right,
+        #14f339,
+        #007aff,
+        #f6ee00,
+        #007aff,
+        #14f339,
+        #ff6262,
+        #f6ee00,
+        #007aff,
+        #14f339
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+
+    color: transparent;
+    background-size: 200%;
+    animation: animate 3s steps(5) infinite;
+    animation: animate 3s linear infinite;    
+}
+
+@keyframes animate {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 200%;
+    }
+}}
+
+
+
+
+
